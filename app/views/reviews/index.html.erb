@@ -1,0 +1,16 @@
+<% @reviews.each do |review|  %>
+  <div class="message">
+    <img class="avatar-large" src="https://kitt.lewagon.com/placeholder/users/gabriel-dehan">
+    <div class="message-name">
+      <h3>Gab Dehan</h3>
+      <p>10/07/17</p>
+    </div>
+    <div class="message-body">
+      <p><strong> <%= review.content %>  </strong></p>
+    </div>
+      <div class="message-status">
+        
+        <p class="price"><%=review.rating %>⭐️</p>
+    </div>
+  </div>
+<% end %>

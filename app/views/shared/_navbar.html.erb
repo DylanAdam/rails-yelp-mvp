@@ -1,0 +1,10 @@
+<div class="navbar-wagon">
+  <!-- Logo -->
+      <%= link_to root_path, class: "navbar-wagon-brand" do %>
+        <%= image_tag "Deliveroo-Logo.png", height: 50 %>
+        <%= link_to "Restaurants", restaurants_path, class: "navbar-wagon-item navbar-wagon-link" %>
+        <%= link_to "Create a new restaurant", new_restaurant_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <% end %>
+      </div>
+
+  <!-- Dropdown list appearing on mobile only -->
